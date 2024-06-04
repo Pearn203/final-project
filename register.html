@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login/Register Form</title>
+    <link rel="stylesheet" href="./assets/style/register.css" class="" />
+  </head>
+  <body>
+    <section class="Login-Form">
+      <div class="Login-box">
+        <div class="Form-Value">
+          <form id="registerForm">
+            <h2>Đăng ký</h2>
+            <div class="input_Form-value">
+              <ion-icon name="person-outline"></ion-icon>
+              <input type="text" id="username" required />
+              <label for="username">Tên đăng nhập</label>
+            </div>
+            <div class="input_Form-value">
+              <ion-icon name="mail-outline"></ion-icon>
+              <input type="text" id="emailPhone" required />
+              <label for="emailPhone">Email/SĐT</label>
+            </div>
+            <div class="input_Form-value">
+              <ion-icon name="lock-closed-outline"></ion-icon>
+              <input type="password" id="password" required />
+              <label for="password">Mật khẩu</label>
+            </div>
+            <div class="input_Form-value">
+              <ion-icon name="lock-closed-outline"></ion-icon>
+              <input type="password" id="confirmPassword" required />
+              <label for="confirmPassword">Nhập lại mật khẩu</label>
+            </div>
+            <button type="submit">Đăng ký</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="./js/register.js"></script>
+  </body>
+</html>

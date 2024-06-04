@@ -1,0 +1,282 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border :0;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+}
+
+.about h1{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+#cartButton {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  #cartButton:hover {
+    background-color: #005f6b;
+  }
+.about h1 span{
+    background: linear-gradient(to left, #c72092 , #6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 15px;    
+}
+.wrapper-content{
+    background-color: white;
+    
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.shoes {
+    position:static;
+    padding-left: 250px;
+    
+
+}
+.img1{
+    width:623px;
+    height:393px;
+    border: 2px solid #c72092;
+    box-shadow: 0 0 8px #c72092;
+    border-radius: 20px;
+}
+.information {
+    
+    justify-content: center;
+    align-items: center;
+    line-height:2;
+    
+    position:relative;
+    background-color: white;
+    color:black;
+    width:366px;
+    height:405px;
+    border:none;
+    left: 533px;
+    bottom: 256px;
+    border-radius: 30px;
+}
+.paragraph1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    line-height: 1.7;
+    padding:10px 10px 10px 10px;
+    font-size: medium ;
+    background: linear-gradient(#c72092 , #6c14d0);
+    border: 2px solid #c72092;
+    border-radius: 20px;
+    box-shadow: 0 0 8px #c72092;
+    -webkit-background-clip: text;
+    
+}
+.paragraph2{
+    position: relative;
+    top: 20px;
+}
+.paragraph2 a {
+    text-decoration: none;
+    transition: 0.2s;
+    display: block;
+    color:grey
+}
+.img2{
+    width:404px;
+    height:500px;
+    border: 2px solid #c72092;
+    box-shadow: 0 0 8px #c72092;
+    border-radius: 20px;
+    
+}
+.men{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    left: 750px;
+    top:350px;
+   
+}
+.ourstore {
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    width:200px;
+    height:300px;
+
+     left: 315px;;
+    bottom:275px
+}
+.openinghours{
+    width:400px;
+    height:300px;
+    left:850px;
+    bottom:330px;
+   
+    position:relative;
+}
+/* footer{
+    width: 100%;
+    position: relative;
+    top: 100px;
+} */
+footer .footer_main{
+    position: relative;
+    top: 465px;
+}
+@media screen and (max-width:480px) {
+    .about {
+        padding-top: 178px;
+    }
+
+    .about>h1 {
+        font-size: 22px;
+    }
+
+    .wrapper-content {
+        padding-top: 30px;
+    }
+
+    .shoes {
+        padding: 0px;
+    }
+
+    .img1 {
+        width: 480px;
+        height: 330px;
+    }
+
+    .men {
+        position: absolute;
+        left: 80px;
+        top: 615px;
+    }
+
+    .information {
+        left: 0px;
+        top: 296px;
+    }
+
+    .ourstore {
+        left: 0px;
+        top: 345px;
+    }
+
+    .ourstore>div>h1 {
+        font-size: 40px;
+    }
+
+    .openinghours {
+        left: 206px;
+        bottom: -43px;
+        width: 273px;
+
+
+
+    }
+
+    .openinghours>div {
+        padding: 0px !important;
+        position: absolute;
+        left: 35px;
+    }
+
+    .openinghours>h1 {
+        font-size: 40px;
+    }
+
+    .paragraph2 {
+        left: 12%;
+        top: 0px;
+    }
+}
+
+/* responsive cho tablet */
+@media screen and (min-width:576px) and (max-width:768px) {
+    .about {
+        padding-top: 178px;
+    }
+
+    .about>h1 {
+        font-size: 39px;
+    }
+
+    .wrapper-content {
+        padding-top: 30px;
+    }
+
+    .shoes {
+        padding-left: 100px;
+    }
+
+    .img1 {
+        width: 500px;
+        height: 385px;
+    }
+
+    .men {
+        position: absolute;
+        left: 312px;
+        top: 526px;
+    }
+
+    .men>span {
+        text-align: center;
+    }
+
+    .information {
+        left: 25px;
+        top: 89px;
+    }
+
+    .ourstore {
+        left: 80px;
+        top: 218px;
+    }
+
+    .ourstore>div>h1 {
+        font-size: 55px;
+    }
+
+    .openinghours {
+        left: 416px;
+        bottom: 80px;
+        width: 273px;
+
+
+
+    }
+
+    .openinghours>div {
+        padding: 0px !important;
+        position: absolute;
+        left: 35px;
+    }
+
+    .openinghours>h1 {
+        font-size: 55px;
+    }
+
+    .paragraph2 {
+        left: 12%;
+        top: 0px;
+    }
+
+    footer .footer_main {
+        position: relative;
+        top: 290px;
+    }
+}
